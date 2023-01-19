@@ -33,12 +33,10 @@ header{
 }
 
 .colonna{
-    
     color: white;
     float: left;
     text-align: center;
-    width: calc(100% / 3);
-    
+    width: calc(100% / 3);  
 }
 .contenuto{
     background-color: black;
@@ -50,7 +48,14 @@ header{
     display: table;
     clear: both;
 }
-.laura{
+.img{
     width: 100px;
     float: left;
+}
+.titoli{
+ 
+
+}
+.email{
+    
 }
