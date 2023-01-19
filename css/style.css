@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.de-bugg{
+    border: solid 1px red;
+}
+
+header h1{
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(211, 89, 130);    
+    margin: 20px 0px 30px 0px;
+}
+header p{
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+header{
+    text-align: center;
+}
+
+.colonna{
+    background-color: black;
+    color: white;
+    float: left;
+    margin: 50px 10px 30px 10px;
+    padding: 1px;
+    text-align: center;
+    width: calc(100% / 4);
+    
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
