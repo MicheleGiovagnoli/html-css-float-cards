@@ -33,17 +33,24 @@ header{
 }
 
 .colonna{
-    background-color: black;
+    
     color: white;
     float: left;
-    border: solid 10px whitesmoke;
-    padding: 20px 20px 10px 20px;
     text-align: center;
     width: calc(100% / 3);
     
 }
+.contenuto{
+    background-color: black;
+    margin: 20px;
+}
+
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+.laura{
+    width: 100px;
+    float: left;
 }
