@@ -15,6 +15,7 @@ header h1{
 }
 header p{
     font-family: 'Fredoka', sans-serif;
+    margin-bottom: 50px;
 }
 
 
@@ -35,10 +36,10 @@ header{
     background-color: black;
     color: white;
     float: left;
-    margin: 50px 10px 30px 10px;
-    padding: 1px;
+    border: solid 10px whitesmoke;
+    padding: 20px 20px 10px 20px;
     text-align: center;
-    width: calc(100% / 4);
+    width: calc(100% / 3);
     
 }
 .clearfix::after{
